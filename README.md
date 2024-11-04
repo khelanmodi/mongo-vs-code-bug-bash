@@ -3,6 +3,16 @@
 ## Prerequisite
 To begin, if you do not already have a sample Cosmos DB for MongoDB (vCore) account, create one using the [Azure portal](aka.ms/tryvcore)
 
+## How to install the extension
+To manually install the Visual Studio Code (VS Code) extension from a VSIX file, you can do the following: Download the latest VS Code Extension Release: vscode-cosmosdb-0.23.1-alpha-PrPr-25.10.2024
+
+- Click the Extensions icon at the bottom of the Activity Bar
+- Click the More button in the top right corner of the Extensions view
+- Select Install from VSIX
+- Select the VSIX file in the file browser or in your downloads folder.
+- Click Install
+- Click Reload to activate the extension
+
 ## Setup Instructions
 
 ### 1. **Install the Azure Cosmos DB for MongoDB vCore Extension**
