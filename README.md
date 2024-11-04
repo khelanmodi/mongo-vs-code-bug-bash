@@ -1,5 +1,8 @@
 # MongoDB VS Code Bug Bash
 
+## Prerequisite
+To begin, if you do not already have a sample Cosmos DB for MongoDB (vCore) account, create one using the [Azure portal](aka.ms/tryvcore)
+
 ## Setup Instructions
 
 ### 1. **Install the Azure Cosmos DB for MongoDB vCore Extension**
