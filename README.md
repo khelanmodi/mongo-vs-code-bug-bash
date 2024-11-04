@@ -19,6 +19,10 @@ When prompted, enter the admin password for your MongoDB vCore cluster. This ste
 
 ---
 
+## Bugs/ Feedback
+Kindly report any bugs [here](https://msdata.visualstudio.com/ba574a88-a171-48e0-8fcb-5fef6d23739c/_workitems/create/Bug?templateId=719fd0fc-f4ea-48ba-8be9-cfe2ab3061d1&ownerId=6ab390ff-a326-49d7-8722-b92a14912596).
+
+---
 ## Testing Scenarios
 ### 1. **Create a New Database and Collection Using the Extension**
    - **Scenario**: Use the MongoDB extension in Azure to create a new database named `RestaurantDB` and a collection named `Restaurants`.
