@@ -2,11 +2,12 @@
 
 For the purposes of this bug bash, we will focus on testing the following key features of the VS Code Extension:
 
-Query Editor
-CRUD Documents
-View documents table/treeview/json
-Download data from query
-Upload query
+- Query Editor
+- CRUD Documents
+- View documents table/treeview/json
+- Download data from query
+- Upload query
+
 Please report any bugs found during testing [here](https://msdata.visualstudio.com/ba574a88-a171-48e0-8fcb-5fef6d23739c/_workitems/create/Bug?templateId=719fd0fc-f4ea-48ba-8be9-cfe2ab3061d1&ownerId=6ab390ff-a326-49d7-8722-b92a14912596).
 
 --- 
