@@ -8,7 +8,7 @@ Here’s a step-by-step outline for the testing scenarios you provided:
      1. Open the MongoDB extension.
      2. Create `RestaurantDB`.
      3. Add a collection named `Restaurants`.
-     4. Insert sample data into the `Restaurants` collection. Data can be found in this repo. 
+     4. Insert sample data into the `Restaurants` collection. [Data](https://github.com/khelanmodi/mongo-vs-code-bug-bash/blob/main/business_demo.json) can be found in this repo. 
 
 ### 2. **Find All Restaurants That Have `is_open = 1`**
    - **Scenario**: Query to fetch all open restaurants.
