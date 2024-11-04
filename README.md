@@ -1,7 +1,25 @@
-# mongo-vs-code-bug-bash
+# MongoDB VS Code Bug Bash
 
-Here’s a step-by-step outline for the testing scenarios you provided:
+## Setup Instructions
 
+### 1. **Install the Azure Cosmos DB for MongoDB vCore Extension**
+Ensure you have the **Azure Cosmos DB for MongoDB vCore** extension installed in your Visual Studio Code environment. This extension is crucial for managing and interacting with your MongoDB vCore clusters seamlessly.
+
+### 2. **Sign In and Select Your Azure Subscription**
+After signing in to Azure, choose the subscription associated with your MongoDB vCore cluster. This step links your VS Code environment with your Azure resources.
+
+### 3. **Explore Your Resources in the Azure Tree View**
+Navigate to the **Azure Resources** section in VS Code. Locate the item labeled **Azure Cosmos DB for MongoDB (vCore)** and expand it to reveal your available clusters and databases.
+
+### 4. **Select and Access Your MongoDB vCore Cluster**
+Identify your cluster in the expanded tree view and select it. This will open the details and management options for your cluster.
+
+### 5. **Authenticate with Your Admin Password**
+When prompted, enter the admin password for your MongoDB vCore cluster. This step is necessary to authenticate your session and securely manage your database.
+
+---
+
+## Testing Scenarios
 ### 1. **Create a New Database and Collection Using the Extension**
    - **Scenario**: Use the MongoDB extension in Azure to create a new database named `RestaurantDB` and a collection named `Restaurants`.
    - **Action**: 
