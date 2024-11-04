@@ -1,7 +1,20 @@
 # MongoDB VS Code Bug Bash
 
+For the purposes of this bug bash, we will focus on testing the following key features of the VS Code Extension:
+
+Query Editor
+CRUD Documents
+View documents table/treeview/json
+Download data from query
+Upload query
+Please report any bugs found during testing [here](https://msdata.visualstudio.com/ba574a88-a171-48e0-8fcb-5fef6d23739c/_workitems/create/Bug?templateId=719fd0fc-f4ea-48ba-8be9-cfe2ab3061d1&ownerId=6ab390ff-a326-49d7-8722-b92a14912596).
+
+--- 
+
 ## Prerequisite
 To begin, if you do not already have a sample Cosmos DB for MongoDB (vCore) account, create one using the [Azure portal](aka.ms/tryvcore)
+
+---
 
 ## How to install the extension
 To manually install the Visual Studio Code (VS Code) extension from a VSIX file, you can do the following: Download the latest VS Code Extension Release: vscode-cosmosdb-0.23.1-alpha-PrPr-25.10.2024
@@ -12,6 +25,8 @@ To manually install the Visual Studio Code (VS Code) extension from a VSIX file,
 - Select the VSIX file in the file browser or in your downloads folder.
 - Click Install
 - Click Reload to activate the extension
+
+--- 
 
 ## Setup Instructions
 
@@ -29,11 +44,6 @@ Identify your cluster in the expanded tree view and select it. This will open th
 
 ### 5. **Authenticate with Your Admin Password**
 When prompted, enter the admin password for your MongoDB vCore cluster. This step is necessary to authenticate your session and securely manage your database.
-
----
-
-## Bugs/ Feedback
-Kindly report any bugs [here](https://msdata.visualstudio.com/ba574a88-a171-48e0-8fcb-5fef6d23739c/_workitems/create/Bug?templateId=719fd0fc-f4ea-48ba-8be9-cfe2ab3061d1&ownerId=6ab390ff-a326-49d7-8722-b92a14912596).
 
 ---
 ## Testing Scenarios
