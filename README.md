@@ -78,10 +78,10 @@ When prompted, enter the admin password for your MongoDB vCore cluster. This ste
      ```javascript
      { "name": "Shalhoob's Funk Zone Patio" }
      ```
-   - **Task**: Capture and share a screenshot of the updated entry in the table view, with the new name "Cosmic Restaurant."
+   - **Task**: Capture and share a screenshot of the updated entry in the table view, with the new name "Cosmic Restaurant".
 
 ### 5. **Delete One Entry That Has `is_open = 0`**
-   - **Scenario**: Remove a closed restaurant named "Minnow Cafe."
+   - **Scenario**: Remove a closed restaurant named "Minnow Cafe".
    - **Action**: Use the following command to find the entry:
      ```javascript
      { "is_open": 0 }
