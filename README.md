@@ -160,7 +160,7 @@ To manually install the Visual Studio Code (VS Code) extension from a VSIX file,
 - **Expected Result**: The document should insert correctly. If not, what does the error look like?
 
 
-### 7. **Export Query Results with `"cuisine": "Seafood"`**
+### 8. **Export Query Results with `"cuisine": "Seafood"`**
    - **Scenario**: Export all documents where `"cuisine": "Seafood"`.
    - **Action**: Use the following command to filter the results:
      ```javascript
