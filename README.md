@@ -8,7 +8,7 @@ For the purposes of this bug bash, we will focus on testing the following key fe
 - Download data from query
 - Upload query
 
-Please report any bugs found during testing [here](https://msdata.visualstudio.com/ba574a88-a171-48e0-8fcb-5fef6d23739c/_workitems/create/Bug?templateId=719fd0fc-f4ea-48ba-8be9-cfe2ab3061d1&ownerId=6ab390ff-a326-49d7-8722-b92a14912596).
+Please report any bugs found during testing [here](https://microsoft.sharepoint.com/:fl:/r/teams/CosmosDB/Shared%20Documents/Developer%20Experience%20Team/Loop%20paragraph%201.loop?d=w2ded8323914647c59e33d8f7c2137d0f&csf=1&web=1&nav=cz0lMkZ0ZWFtcyUyRkNvc21vc0RCJmQ9YiFPQjdRaHpYV1pVaTYtQ3VhWGtULUI2VFZ1TkYzOHlSSmdSMkhIWDVKMVpYUWpZWWE5ZE9BVEpQU2RWWkZVRWV3JmY9MDFUU043VDRSRFFQV1MyUlVSWVZEWjRNNlk2N0JCRzdJUCZjPSUyRiZmbHVpZD0xJmE9VGVhbXMmcD0lNDBmbHVpZHglMkZsb29wLXBhZ2UtY29udGFpbmVy).
 
 --- 
 
