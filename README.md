@@ -18,7 +18,7 @@ To begin, if you do not already have a sample Cosmos DB for MongoDB (vCore) acco
 ---
 
 ## How to install the extension
-To manually install the Visual Studio Code (VS Code) extension from a VSIX file, you can do the following: Download the latest VS Code Extension Release: [vscode-documentdb-0.1.9-pre-release.vsix]()
+To manually install the Visual Studio Code (VS Code) extension from a VSIX file, you can do the following: Download the latest VS Code Extension Release: [vscode-documentdb-0.1.9-pre-release.vsix](https://github.com/khelanmodi/mongo-vs-code-bug-bash/blob/main/vscode-documentdb-0.1.9-pre-release.vsix)
 
 - Click the Extensions icon at the bottom of the Activity Bar
 - Click the More button in the top right corner of the Extensions view
@@ -31,8 +31,8 @@ To manually install the Visual Studio Code (VS Code) extension from a VSIX file,
 
 ## Setup Instructions
 
-### 1. **Install the Azure Cosmos DB for MongoDB vCore Extension**
-Ensure you have the **Azure Cosmos DB for MongoDB vCore** extension installed in your Visual Studio Code environment. This extension is crucial for managing and interacting with your MongoDB vCore clusters seamlessly.
+### 1. **Install the DocumentDB for VS Code Extension**
+Ensure you have the **DocumentDB for VS Code** extension installed in your Visual Studio Code environment. This extension is crucial for managing and interacting with your MongoDB vCore clusters seamlessly.
 
 ### 2. **Sign In and Select Your Azure Subscription**
 After signing in to Azure, choose the subscription associated with your MongoDB vCore cluster. This step links your VS Code environment with your Azure resources.
