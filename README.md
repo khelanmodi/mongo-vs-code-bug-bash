@@ -2,6 +2,7 @@
 
 For the purposes of this bug bash, we will focus on testing the following key features of the VS Code Extension:
 
+- Our new connection management and Service Discovery
 - Query Editor
 - CRUD Documents
 - View documents table/treeview/json
@@ -15,10 +16,17 @@ Please report any bugs found during testing [here](https://microsoft.sharepoint.
 ## Prerequisite
 To begin, if you do not already have a sample Cosmos DB for MongoDB (vCore) account or a provisioned DocumentDB instance, create one using the [Azure portal](aka.ms/tryvcore)
 
+> 🛟 We have two backup instances for you to play with, but the more scenarios we test, the better. So we'd encourage you to use your resources.
+
 ---
 
-## How to install the extension
+## Setup Instructions
+
+### 1. **Install the DocumentDB for VS Code Extension**
+
 To manually install the Visual Studio Code (VS Code) extension from a VSIX file, you can do the following: Download the latest VS Code Extension Release: [vscode-documentdb-0.1.9-pre-release.vsix](https://github.com/khelanmodi/mongo-vs-code-bug-bash/blob/main/vscode-documentdb-0.1.9-pre-release.vsix)
+
+![How to install the extension](images/vsix.png)
 
 - Click the Extensions icon at the bottom of the Activity Bar
 - Click the More button in the top right corner of the Extensions view
@@ -27,104 +35,136 @@ To manually install the Visual Studio Code (VS Code) extension from a VSIX file,
 - Click Install
 - Click Reload to activate the extension
 
---- 
+### 2. **Read the Walkthrough**
 
-## Setup Instructions
+- **Scenario**: You’ve just installed the DocumentDB extension for VS Code.
+- **Action**:
+  1. If the walkthrough doesn't appear automatically after install, this might be a bug, please let us know.
+  2. Manually activate the walkthrough by opening the **Command Palette** (`Ctrl+Shift+P`), searching for `Welcome: Open Walkthrough...`, and selecting it. Next, look for the `DocumentDB` entry in the list and choose it.
+- **Expected Result**: The walkthrough appears, helping you understand the first steps with the extension.
 
-### 1. **Install the DocumentDB for VS Code Extension**
-Ensure you have the **DocumentDB for VS Code** extension installed in your Visual Studio Code environment. This extension is crucial for managing and interacting with your MongoDB vCore clusters seamlessly.
-
-### 2. **Sign In and Select Your Azure Subscription**
-After signing in to Azure, choose the subscription associated with your MongoDB vCore cluster. This step links your VS Code environment with your Azure resources.
-
-### 3. **Explore Your Resources in the Azure Tree View**
-Navigate to the **Azure Resources** section in VS Code. Locate the item labeled **Azure Cosmos DB for MongoDB (vCore)** and expand it to reveal your available clusters and databases.
-
-### 4. **Select and Access Your MongoDB vCore Cluster**
-Identify your cluster in the expanded tree view and select it. This will open the details and management options for your cluster.
-
-### 5. **Authenticate with Your Admin Password**
-When prompted, enter the admin password for your MongoDB vCore cluster. This step is necessary to authenticate your session and securely manage your database.
 
 ---
+
 ## Testing Scenarios
-### 1. **Create a New Database and Collection Using the Extension**
-   - **Scenario**: Use the MongoDB extension in Azure to create a new database named `RestaurantDB` and a collection named `Restaurants`.
-   - **Action**: 
-     1. Open the MongoDB extension.
-     2. Create `RestaurantDB`.
-     3. Add a collection named `Restaurants`.
-     4. Insert sample data into the `Restaurants` collection. [Data](https://github.com/khelanmodi/mongo-vs-code-bug-bash/blob/main/business_demo.json) can be found in this repo. 
 
-### 2. **Find All Restaurants That Have `is_open = 1`**
-   - **Scenario**: Query to fetch all open restaurants.
-   - **Action**: Enter the following command in the Filter textbox: 
-     ```javascript
-     { "is_open": 1 }
-     ```
-   - **Expected Result**: A list of open restaurants.
+> ⚠️ **Note:** These steps are **not 100% specific** by design, we want you to engage with the actual interface and decide based on what the UI is telling you. This helps us understand whether the on-screen instructions are intuitive and complete.  
+>
+> We've tested the "common paths" and ensured the basic flow works. That said, there are likely many *non-standard behaviors* and edge cases left unexplored. So don't be afraid to go off-script,  try something unexpected, and help us uncover those hidden quirks.
 
-### 3. **Using the Table View, Give Monday's Working Hours for Open Restaurants**
-   - **Scenario**: Display the names of open restaurants and their Monday working hours in a table view.
-   - **Action**: You can filter open restaurants with the following command: 
-     ```javascript
-     { "is_open": 1 }
-     ```
-   - **Task**: Capture a screenshot of the table view showing the names and Monday hours. You can view the hours by double-clicking on the hours of operation field. To return to the root level, click the Root level button at the bottom left of the screen.
+### 1. **Connection Management – Choose Your Path**
 
-### 4. **Edit the Time for a Specific Entry and Share the Screenshot**
-   - **Scenario**: Modify the Monday working hours for one of the open restaurants.
-   - **Action**: Update the entry using this filter:
-     ```javascript
-     { "name": "Shalhoob's Funk Zone Patio" }
-     ```
-   - **Task**: Capture and share a screenshot of the updated entry in the table view, with the new name "Cosmic Restaurant."
+> 🪧 Choose between the options **A**, **B**, or **C**
 
-### 5. **Delete One Entry That Has `is_open = 0`**
-   - **Scenario**: Remove a closed restaurant named "Minnow Cafe."
-   - **Action**: Use the following command to find the entry:
-     ```javascript
-     { "is_open": 0 }
-     ```
-   - **Expected Result**: Confirmation of deletion.
+#### **Option A. Use a Connection String**
+- **Scenario**: You have a MongoDB connection string.
+- **Action**:
+  1. In the **DocumentDB Connections** view, choose **"New Connection"**.
+  2. Work with the wizard.
+- **Next Step**: You can now choose to:
+  - Work from **DocumentDB Connections**, or
+  - Use the **Service Discovery** view  
+    > 💡 Flip a coin to decide.
 
-### 6. **Add a New Entry**
-   - **Scenario**: Insert a new restaurant entry into the collection.
-   - **Action**:
-     ```javascript
-     {
-       "business_id": "abc123def456ghi789jkl",
-       "name": "Golden Gate Catering Services",
-       "address": "123 Culinary Ave",
-       "city": "San Francisco",
-       "state": "CA",
-       "stars": 4.5,
-       "review_count": 15,
-       "is_open": 1,
-       "categories": "Caterers, Event Planning & Services, Food, Professional Services",
-       "hours": {
-         "Monday": "8:0-20:0",
-         "Tuesday": "8:0-20:0",
-         "Wednesday": "8:0-20:0",
-         "Thursday": "8:0-20:0",
-         "Friday": "8:0-20:0",
-         "Saturday": "10:0-18:0",
-         "Sunday": "Closed"
-       },
-       "location": {
-         "type": "Point",
-         "coordinates": [ -122.419416, 37.774929 ]
-       },
-       "description": "### Business Summary\n\nGolden Gate Catering Services, based in San Francisco, CA, is renowned for delivering exquisite culinary experiences for a variety of events. ..."
-     }
-     ```
-   - **Expected Result**: The new entry should appear in the collection.
+#### **Option B. Use Azure Service Discovery (for a vCore Resource)**
+- **Scenario**: You have an Azure Cosmos DB for MongoDB (vCore) resource.
+- **Action**:
+  1. Go to **Service Discovery**.
+  2. Activate **"Azure Cosmos DB for MongoDB (vCore)"**.
+  3. Navigate to your **Subscription**, then to your **Resource**.
+- **Bonus Task**: Attempt to **save this connection** to your **DocumentDB Connections** area.
+- **Next Step**: You can now choose to:
+  - Work from **DocumentDB Connections**, or
+  - Use the **Service Discovery** view  
+    > 💡 Flip a coin to decide.
 
-### 7. **Export Query Results with `is_open = 0`**
-   - **Scenario**: Export all documents where `is_open = 0`.
+#### **Option C. Use a Provided Demo Resource**
+- **Scenario**: You don’t have your own database. No worries!
+- **Action**:
+  1. 💡 Flip a coin and choose one:
+     - **Option 1**: Azure Cosmos DB for MongoDB (vCore)  
+       → Go to subscription `CosmosDB-Interop-Mongo`, then select cluster `a-bug-bash-vcore` (credentials provided in chat).
+     - **Option 2**: Azure VM  
+       → Go to subscription `CosmosDB-Interop-Mongo`, then select `bitnami-mongo-vm` (credentials provided in chat).
+- **Bonus Task**: Attempt to **save this connection** to your **DocumentDB Connections** area.
+- **Next Step**: You can now choose to:
+  - Work from **DocumentDB Connections**, or
+  - Use the **Service Discovery** view  
+    > 💡 Flip a coin to decide.
+
+### 2. **Try Renaming Your Connection**
+- **Scenario**: Rename the connection you've saved.
+- **Action**:
+  1. Right-click your saved connection and choose **Rename**.
+  2. Try naming it something strange (include emojis, slashes, cancel midway, etc.).
+- **Expected Result**: Either success or errors, in either case, you're helping us test edge cases. 🧪
+
+### 3. **Add a Broken Connection**
+- **Scenario**: What happens when things go wrong?
+- **Action**:
+  1. Add a new connection with this connection string:  
+     `mongodb://auser@notarealserver.com`
+  2. Try to connect,  it should fail.
+  3. Attempt to edit the credentials. Try invalid values. Cancel and retry.
+  4. Try deleting this connection.
+- **Expected Result**: Errors should be handled gracefully.
+
+### 4. **Explore the Database Interface**
+
+- **Scenario**: Use the extension to interact with your DocumentDB resource.
+- **Action**:
+  1. Navigate to one of your connected servers.
+  2. Create a **new database and collection**,  use your **initials** in the name (e.g., `AB_DemoDB`, `AB_Collection`).
+  3. Open the collection view and explore the views,  **Table**, **Tree**, and **JSON**.
+- **Expected Result**: You should be able see an empty collection.
+
+### 5. **Import Sample Data**
+
+- **Scenario**: Populate your collection with sample data.
+- **Action**:
+  1. Find the option to import sample data (explore the context menu or the collection viewer)
+  2. Choose a JSON file containing the sample data: [restaurants-small.json](restaurants-small.json)
+  3. Confirm the import operation.
+- **Expected Result**: The data is imported successfully, and documents appear in your collection.
+
+### 6. **Search and Query Data**
+
+- **Scenario**: Execute queries to retrieve specific data.
+- **Action**:
+  1. Right-click on your collection and select **Find Query**.
+  2. Enter a query filter, such as `{ "cuisine": "Seafood" }`.
+  3. Run the query and observe the results.
+- **Expected Result**: The query executes successfully, and matching documents are displayed.
+
+### 6.1 **Use Auto-Completion for Complex Queries**
+
+- **Scenario**: Leverage auto-completion to build a more complex query.
+- **Action**:
+  1. Start typing `{ add` in the query editor and wait for suggestions to appear.
+    ![alt text](images/image-1.png)
+  2. From the suggestions, select `additionalInfo.hasOutdoorSeating`.
+  3. Type `:` and choose the value `true`.
+    ![alt text](images/image-2.png)
+- **Expected Result**: The query builder should assist with field suggestions and valid values. The resulting query should be something like:  
+  ```javascript
+  { "additionalInfo.hasOutdoorSeating": true }
+  ```
+
+### 7. **Insert a New Document**
+
+- **Scenario**: Add a new document to your collection.
+- **Action**:
+  1. In your collection, click **Insert Document**.
+  2. Paste in a JSON object (you can copy an existing document as a template using **View Document**).
+  3. Try different formats,  valid and invalid.
+- **Expected Result**: The document should insert correctly. If not, what does the error look like?
+
+
+### 7. **Export Query Results with `"cuisine": "Seafood"`**
+   - **Scenario**: Export all documents where `"cuisine": "Seafood"`.
    - **Action**: Use the following command to filter the results:
      ```javascript
-     { "is_open": 0 }
+     { "cuisine": "Seafood" }
      ```
    - **Task**: Export the results to a JSON file and count the number of documents in the file.
-   - **Expected Result**: A new file containing all documents with `is_open = 0`, along with a document count summary.
+   - **Expected Result**: A new file containing all documents with `"cuisine": "Seafood"`, along with a document count summary.
