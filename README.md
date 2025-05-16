@@ -1,4 +1,4 @@
-# MongoDB VS Code Bug Bash
+# DocumentDB for VS Code Bug Bash
 
 For the purposes of this bug bash, we will focus on testing the following key features of the VS Code Extension:
 
@@ -13,12 +13,12 @@ Please report any bugs found during testing [here](https://msdata.visualstudio.c
 --- 
 
 ## Prerequisite
-To begin, if you do not already have a sample Cosmos DB for MongoDB (vCore) account, create one using the [Azure portal](aka.ms/tryvcore)
+To begin, if you do not already have a sample Cosmos DB for MongoDB (vCore) account or a provisioned DocumentDB instance, create one using the [Azure portal](aka.ms/tryvcore)
 
 ---
 
 ## How to install the extension
-To manually install the Visual Studio Code (VS Code) extension from a VSIX file, you can do the following: Download the latest VS Code Extension Release: vscode-cosmosdb-0.23.1-alpha-PrPr-25.10.2024
+To manually install the Visual Studio Code (VS Code) extension from a VSIX file, you can do the following: Download the latest VS Code Extension Release: [vscode-documentdb-0.1.9-pre-release.vsix]()
 
 - Click the Extensions icon at the bottom of the Activity Bar
 - Click the More button in the top right corner of the Extensions view
