@@ -1,0 +1,3382 @@
+[
+    {
+        "address": {
+            "building": 1001,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 1.1,
+        "reviews": 17,
+        "cuisine": "American",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 16,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 3.1,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1002,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 1.2,
+        "reviews": 34,
+        "cuisine": "Italian",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 17,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 3.2,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1003,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 1.3,
+        "reviews": 51,
+        "cuisine": "Mexican",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 18,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 3.3,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1004,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 1.4,
+        "reviews": 68,
+        "cuisine": "Chinese",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 19,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 3.4,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1005,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 1.5,
+        "reviews": 85,
+        "cuisine": "Japanese",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 20,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 3.5,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1006,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 1.6,
+        "reviews": 102,
+        "cuisine": "Indian",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 21,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 3.6,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1007,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 1.7,
+        "reviews": 119,
+        "cuisine": "French",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 22,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 3.7,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1008,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 1.8,
+        "reviews": 136,
+        "cuisine": "Mediterranean",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 23,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 3.8,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1009,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 1.9,
+        "reviews": 153,
+        "cuisine": "Thai",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 24,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 3.9,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1010,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 2.0,
+        "reviews": 170,
+        "cuisine": "Vegetarian",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 25,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 4.0,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1011,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 2.1,
+        "reviews": 187,
+        "cuisine": "Vegan",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 26,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 4.1,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1012,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 2.2,
+        "reviews": 204,
+        "cuisine": "Steakhouse",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 27,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 4.2,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1013,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 2.3,
+        "reviews": 221,
+        "cuisine": "Seafood",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 28,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 4.3,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1014,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 2.4,
+        "reviews": 238,
+        "cuisine": "Pizza",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 29,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 4.4,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1015,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 2.5,
+        "reviews": 255,
+        "cuisine": "Burgers",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 30,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 4.5,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1016,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 2.6,
+        "reviews": 272,
+        "cuisine": "American",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 31,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 4.6,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1017,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 2.7,
+        "reviews": 289,
+        "cuisine": "Italian",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 32,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 4.7,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1018,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 2.8,
+        "reviews": 306,
+        "cuisine": "Mexican",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 33,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 4.8,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1019,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 2.9,
+        "reviews": 323,
+        "cuisine": "Chinese",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 34,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 4.9,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1020,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 3.0,
+        "reviews": 340,
+        "cuisine": "Japanese",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 35,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 5.0,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1021,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 3.1,
+        "reviews": 357,
+        "cuisine": "Indian",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 36,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 3.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1022,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 3.2,
+        "reviews": 374,
+        "cuisine": "French",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 37,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 3.1,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1023,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 3.3,
+        "reviews": 391,
+        "cuisine": "Mediterranean",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 38,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 3.2,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1024,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 3.4,
+        "reviews": 408,
+        "cuisine": "Thai",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 39,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 3.3,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1025,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 3.5,
+        "reviews": 425,
+        "cuisine": "Vegetarian",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 40,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 3.4,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1026,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 3.6,
+        "reviews": 442,
+        "cuisine": "Vegan",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 41,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 3.5,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1027,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 3.7,
+        "reviews": 459,
+        "cuisine": "Steakhouse",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 42,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 3.6,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1028,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 3.8,
+        "reviews": 476,
+        "cuisine": "Seafood",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 43,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 3.7,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1029,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 3.9,
+        "reviews": 493,
+        "cuisine": "Pizza",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 44,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 3.8,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1030,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 4.0,
+        "reviews": 510,
+        "cuisine": "Burgers",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 45,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 3.9,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1031,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 4.1,
+        "reviews": 527,
+        "cuisine": "American",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 46,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 4.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1032,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 4.2,
+        "reviews": 544,
+        "cuisine": "Italian",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 47,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 4.1,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1033,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 4.3,
+        "reviews": 561,
+        "cuisine": "Mexican",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 48,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 4.2,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1034,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 4.4,
+        "reviews": 578,
+        "cuisine": "Chinese",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 49,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 4.3,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1035,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 4.5,
+        "reviews": 595,
+        "cuisine": "Japanese",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 50,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 4.4,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1036,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 4.6,
+        "reviews": 612,
+        "cuisine": "Indian",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 51,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 4.5,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1037,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 4.7,
+        "reviews": 629,
+        "cuisine": "French",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 52,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 4.6,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1038,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 4.8,
+        "reviews": 646,
+        "cuisine": "Mediterranean",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 53,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 4.7,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1039,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 4.9,
+        "reviews": 663,
+        "cuisine": "Thai",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 54,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 4.8,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1040,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 5.0,
+        "reviews": 680,
+        "cuisine": "Vegetarian",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 55,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 4.9,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1041,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 1.0,
+        "reviews": 697,
+        "cuisine": "Vegan",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 56,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 5.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1042,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 1.1,
+        "reviews": 714,
+        "cuisine": "Steakhouse",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 57,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 3.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1043,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 1.2,
+        "reviews": 731,
+        "cuisine": "Seafood",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 58,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 3.1,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1044,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 1.3,
+        "reviews": 748,
+        "cuisine": "Pizza",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 59,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 3.2,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1045,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 1.4,
+        "reviews": 765,
+        "cuisine": "Burgers",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 60,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 3.3,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1046,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 1.5,
+        "reviews": 782,
+        "cuisine": "American",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 15,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 3.4,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1047,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 1.6,
+        "reviews": 799,
+        "cuisine": "Italian",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 16,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 3.5,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1048,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 1.7,
+        "reviews": 816,
+        "cuisine": "Mexican",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 17,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 3.6,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1049,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 1.8,
+        "reviews": 833,
+        "cuisine": "Chinese",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 18,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 3.7,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1050,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 1.9,
+        "reviews": 850,
+        "cuisine": "Japanese",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 19,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 3.8,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1051,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 2.0,
+        "reviews": 867,
+        "cuisine": "Indian",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 20,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 3.9,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1052,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 2.1,
+        "reviews": 884,
+        "cuisine": "French",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 21,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 4.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1053,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 2.2,
+        "reviews": 901,
+        "cuisine": "Mediterranean",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 22,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 4.1,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1054,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 2.3,
+        "reviews": 918,
+        "cuisine": "Thai",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 23,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 4.2,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1055,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 2.4,
+        "reviews": 935,
+        "cuisine": "Vegetarian",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 24,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 4.3,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1056,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 2.5,
+        "reviews": 952,
+        "cuisine": "Vegan",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 25,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 4.4,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1057,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 2.6,
+        "reviews": 969,
+        "cuisine": "Steakhouse",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 26,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 4.5,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1058,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 2.7,
+        "reviews": 986,
+        "cuisine": "Seafood",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 27,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 4.6,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1059,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 2.8,
+        "reviews": 1003,
+        "cuisine": "Pizza",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 28,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 4.7,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1060,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 2.9,
+        "reviews": 1020,
+        "cuisine": "Burgers",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 29,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 4.8,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1061,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 3.0,
+        "reviews": 1037,
+        "cuisine": "American",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 30,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 4.9,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1062,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 3.1,
+        "reviews": 1054,
+        "cuisine": "Italian",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 31,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 5.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1063,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 3.2,
+        "reviews": 1071,
+        "cuisine": "Mexican",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 32,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 3.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1064,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 3.3,
+        "reviews": 1088,
+        "cuisine": "Chinese",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 33,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 3.1,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1065,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 3.4,
+        "reviews": 1105,
+        "cuisine": "Japanese",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 34,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 3.2,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1066,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 3.5,
+        "reviews": 1122,
+        "cuisine": "Indian",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 35,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 3.3,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1067,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 3.6,
+        "reviews": 1139,
+        "cuisine": "French",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 36,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 3.4,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1068,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 3.7,
+        "reviews": 1156,
+        "cuisine": "Mediterranean",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 37,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 3.5,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1069,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 3.8,
+        "reviews": 1173,
+        "cuisine": "Thai",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 38,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 3.6,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1070,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 3.9,
+        "reviews": 1190,
+        "cuisine": "Vegetarian",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 39,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 3.7,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1071,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 4.0,
+        "reviews": 1207,
+        "cuisine": "Vegan",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 40,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 3.8,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1072,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 4.1,
+        "reviews": 1224,
+        "cuisine": "Steakhouse",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 41,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 3.9,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1073,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 4.2,
+        "reviews": 1241,
+        "cuisine": "Seafood",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 42,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 4.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1074,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 4.3,
+        "reviews": 1258,
+        "cuisine": "Pizza",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 43,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 4.1,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1075,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 4.4,
+        "reviews": 1275,
+        "cuisine": "Burgers",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 44,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 4.2,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1076,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 4.5,
+        "reviews": 1292,
+        "cuisine": "American",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 45,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 4.3,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1077,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 4.6,
+        "reviews": 1309,
+        "cuisine": "Italian",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 46,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 4.4,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1078,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 4.7,
+        "reviews": 1326,
+        "cuisine": "Mexican",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 47,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 4.5,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1079,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 4.8,
+        "reviews": 1343,
+        "cuisine": "Chinese",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 48,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 4.6,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1080,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 4.9,
+        "reviews": 1360,
+        "cuisine": "Japanese",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 49,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 4.7,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1081,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 5.0,
+        "reviews": 1377,
+        "cuisine": "Indian",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 50,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 4.8,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1082,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 1.0,
+        "reviews": 1394,
+        "cuisine": "French",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 51,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 4.9,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1083,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 1.1,
+        "reviews": 1411,
+        "cuisine": "Mediterranean",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 52,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 5.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1084,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 1.2,
+        "reviews": 1428,
+        "cuisine": "Thai",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 53,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 3.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1085,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 1.3,
+        "reviews": 1445,
+        "cuisine": "Vegetarian",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 54,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 3.1,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1086,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 1.4,
+        "reviews": 1462,
+        "cuisine": "Vegan",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 55,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 3.2,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1087,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 1.5,
+        "reviews": 1479,
+        "cuisine": "Steakhouse",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 56,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 3.3,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1088,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 1.6,
+        "reviews": 1496,
+        "cuisine": "Seafood",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 57,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 3.4,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1089,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 1.7,
+        "reviews": 1513,
+        "cuisine": "Pizza",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 58,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 3.5,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1090,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 1.8,
+        "reviews": 1530,
+        "cuisine": "Burgers",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 59,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 3.6,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1091,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 1.9,
+        "reviews": 1547,
+        "cuisine": "American",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 60,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 3.7,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1092,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 2.0,
+        "reviews": 1564,
+        "cuisine": "Italian",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 15,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 3.8,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1093,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 2.1,
+        "reviews": 1581,
+        "cuisine": "Mexican",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 16,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 3.9,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1094,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 2.2,
+        "reviews": 1598,
+        "cuisine": "Chinese",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 17,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 4.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1095,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 2.3,
+        "reviews": 1615,
+        "cuisine": "Japanese",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 18,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 4.1,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1096,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 2.4,
+        "reviews": 1632,
+        "cuisine": "Indian",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 19,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 4.2,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1097,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 2.5,
+        "reviews": 1649,
+        "cuisine": "French",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 20,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 4.3,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1098,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 2.6,
+        "reviews": 1666,
+        "cuisine": "Mediterranean",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 21,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 4.4,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1099,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 2.7,
+        "reviews": 1683,
+        "cuisine": "Thai",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 22,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 4.5,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1100,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 2.8,
+        "reviews": 1700,
+        "cuisine": "Vegetarian",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 23,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 4.6,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1101,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 2.9,
+        "reviews": 1717,
+        "cuisine": "Vegan",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 24,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 4.7,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1102,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 3.0,
+        "reviews": 1734,
+        "cuisine": "Steakhouse",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 25,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 4.8,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1103,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 3.1,
+        "reviews": 1751,
+        "cuisine": "Seafood",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 26,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 4.9,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1104,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 3.2,
+        "reviews": 1768,
+        "cuisine": "Pizza",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 27,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 5.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1105,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 3.3,
+        "reviews": 1785,
+        "cuisine": "Burgers",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 28,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 3.0,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1106,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 3.4,
+        "reviews": 1802,
+        "cuisine": "American",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 29,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 3.1,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1107,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 3.5,
+        "reviews": 1819,
+        "cuisine": "Italian",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 30,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 3.2,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1108,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 3.6,
+        "reviews": 1836,
+        "cuisine": "Mexican",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 31,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 3.3,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1109,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 3.7,
+        "reviews": 1853,
+        "cuisine": "Chinese",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 32,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 3.4,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1110,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 3.8,
+        "reviews": 1870,
+        "cuisine": "Japanese",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 33,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 3.5,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1111,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 3.9,
+        "reviews": 1887,
+        "cuisine": "Indian",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 34,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 3.6,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1112,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 4.0,
+        "reviews": 1904,
+        "cuisine": "French",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 35,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 3.7,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1113,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 4.1,
+        "reviews": 1921,
+        "cuisine": "Mediterranean",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 36,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 3.8,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1114,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 4.2,
+        "reviews": 1938,
+        "cuisine": "Thai",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 37,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 3.9,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1115,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 4.3,
+        "reviews": 1955,
+        "cuisine": "Vegetarian",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 38,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 4.0,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1116,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 4.4,
+        "reviews": 1972,
+        "cuisine": "Vegan",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 39,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 4.1,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1117,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 4.5,
+        "reviews": 1989,
+        "cuisine": "Steakhouse",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 40,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 4.2,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1118,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 4.6,
+        "reviews": 2006,
+        "cuisine": "Seafood",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 41,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 4.3,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1119,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 4.7,
+        "reviews": 2023,
+        "cuisine": "Pizza",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 42,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 4.4,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1120,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 4.8,
+        "reviews": 2040,
+        "cuisine": "Burgers",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 43,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 4.5,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1121,
+            "coord": [
+                -73.879,
+                40.761
+            ],
+            "street": "Astoria Boulevard",
+            "zipcode": 10001
+        },
+        "rating": 4.9,
+        "reviews": 2057,
+        "cuisine": "American",
+        "name": "The Golden Fork",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 44,
+            "topReview": {
+                "summary": "Great ambiance",
+                "rating": 4.6,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1122,
+            "coord": [
+                -73.878,
+                40.762
+            ],
+            "street": "Broadway",
+            "zipcode": 10002
+        },
+        "rating": 5.0,
+        "reviews": 2074,
+        "cuisine": "Italian",
+        "name": "The Red Spoon",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 45,
+            "topReview": {
+                "summary": "Delicious food",
+                "rating": 4.7,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1123,
+            "coord": [
+                -73.877,
+                40.763
+            ],
+            "street": "Main Street",
+            "zipcode": 10003
+        },
+        "rating": 1.0,
+        "reviews": 2091,
+        "cuisine": "Mexican",
+        "name": "The Blue Table",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 46,
+            "topReview": {
+                "summary": "Excellent service",
+                "rating": 4.8,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1124,
+            "coord": [
+                -73.876,
+                40.764
+            ],
+            "street": "Elm Street",
+            "zipcode": 10004
+        },
+        "rating": 1.1,
+        "reviews": 2108,
+        "cuisine": "Chinese",
+        "name": "The Green Grill",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 47,
+            "topReview": {
+                "summary": "Will visit again",
+                "rating": 4.9,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1125,
+            "coord": [
+                -73.875,
+                40.765
+            ],
+            "street": "Maple Avenue",
+            "zipcode": 10005
+        },
+        "rating": 1.2,
+        "reviews": 2125,
+        "cuisine": "Japanese",
+        "name": "The Spicy Garden",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 48,
+            "topReview": {
+                "summary": "A hidden gem",
+                "rating": 5.0,
+                "verified": true
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1126,
+            "coord": [
+                -73.874,
+                40.766
+            ],
+            "street": "Park Avenue",
+            "zipcode": 10006
+        },
+        "rating": 1.3,
+        "reviews": 2142,
+        "cuisine": "Indian",
+        "name": "The Sweet Bistro",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 49,
+            "topReview": {
+                "summary": "Not up to the mark",
+                "rating": 3.0,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1127,
+            "coord": [
+                -73.873,
+                40.767
+            ],
+            "street": "2nd Street",
+            "zipcode": 10007
+        },
+        "rating": 1.4,
+        "reviews": 2159,
+        "cuisine": "French",
+        "name": "The Savory Kitchen",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 3,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 50,
+            "topReview": {
+                "summary": "Superb flavors",
+                "rating": 3.1,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1128,
+            "coord": [
+                -73.872,
+                40.768
+            ],
+            "street": "3rd Street",
+            "zipcode": 10009
+        },
+        "rating": 1.5,
+        "reviews": 2176,
+        "cuisine": "Mediterranean",
+        "name": "The Urban Diner",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 4,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 51,
+            "topReview": {
+                "summary": "Loved the desserts",
+                "rating": 3.2,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1129,
+            "coord": [
+                -73.871,
+                40.769
+            ],
+            "street": "Cedar Street",
+            "zipcode": 10010
+        },
+        "rating": 1.6,
+        "reviews": 2193,
+        "cuisine": "Thai",
+        "name": "The Rustic Cafe",
+        "additionalInfo": {
+            "hasOutdoorSeating": false,
+            "priceLevel": 1,
+            "isFamilyFriendly": true,
+            "averageWaitTime": 52,
+            "topReview": {
+                "summary": "Exceptional experience",
+                "rating": 3.3,
+                "verified": false
+            }
+        }
+    },
+    {
+        "address": {
+            "building": 1130,
+            "coord": [
+                -73.88,
+                40.76
+            ],
+            "street": "Oak Street",
+            "zipcode": 10011
+        },
+        "rating": 1.7,
+        "reviews": 2210,
+        "cuisine": "Vegetarian",
+        "name": "The Modern Eatery",
+        "additionalInfo": {
+            "hasOutdoorSeating": true,
+            "priceLevel": 2,
+            "isFamilyFriendly": false,
+            "averageWaitTime": 53,
+            "topReview": {
+                "summary": "Too crowded",
+                "rating": 3.4,
+                "verified": true
+            }
+        }
+    }
+]
